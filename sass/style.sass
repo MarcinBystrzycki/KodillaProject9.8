@@ -1,0 +1,325 @@
+$green-primary: #16a085
+$green-secondary: #12bd9d
+
+@font-face
+  font-family: GothamRounded
+  src: url("../fonts/GothamRounded.ttf")
+
+@font-face
+  font-family: GothamBold
+  src: url("../fonts/Gotham Rounded Bold.otf")
+
+.header-section
+  font-family: GothamRounded
+  .container-fluid
+  	padding: 0
+
+.hero
+  height: 100vh
+  width: 100%
+  background-image: url("../images/build/Livello 1.png")
+  background-size: cover
+  background-position: bottom
+  overflow: hidden
+
+.navbar-default
+  background: none
+  border: none
+  text-align: center
+  .navbar-nav
+    padding-top: 4%
+    li
+      padding-left: 40px
+      padding-right: 40px
+      a
+        color: white
+        font-family: GothamBold
+        font-size: 16px
+        font-weight: 400
+        &:focus,
+        &:hover
+          color: $green-primary
+          text-shadow: 2px 2px 2px black
+
+.header-section
+  position: relative
+  .row
+    margin-right: 0
+    margin-left: 0
+
+.hero-header
+  position: absolute
+  top: 40%
+  bottom: 0
+  left: 0
+  right: 0
+  h1
+    color: white
+    font-size: 50px
+    letter-spacing: 7px
+  h4
+    color: white
+    font-weight: 0
+    letter-spacing: 3px
+    margin-bottom: 25px
+
+.hero-btn
+  background-color: $green-primary
+  box-shadow: 2px 2px 2px black
+  font-family: GothamBold
+  border: none
+  height: 60px
+  width: 200px
+  font-size: 13px
+  letter-spacing: 0
+  color: white
+  transition: 0.7s
+  &:focus,
+  &:hover
+    background-color: $green-primary
+    font-size: 16px
+    letter-spacing: 2px
+    color: white
+    box-shadow: none
+
+.social-icons
+  position: absolute
+  bottom: 2%
+  left: 0
+  right: 0
+  color: white
+  font-size: 30px
+  a
+    color: white
+    i
+      &:focus,
+      &:hover
+        color: $green-primary
+        transition: 0.5s
+
+.iphone-section
+  font-family: GothamRounded
+  padding-top: 10vh
+  background-color: #f5f6f7
+  background-image: url("../images/build/iphone-hand.png")
+  background-repeat: no-repeat
+  background-position: 80% -35%
+  .iphone-background
+    max-width: 1170px
+    width: 80%
+
+.green-h2
+  color: $green-primary
+  letter-spacing: 3px
+  font-weight: 700
+  font-size: 28px
+  margin-bottom: 30px
+
+.paragraph
+  color: #373737
+  font-weight: 0
+  margin-bottom: 30px
+  letter-spacing: 3px
+  text-shadow: 1px 2px 0 white
+  .bold
+    font-family: GothamBold
+    
+.design-section
+  max-height: 500px
+  padding-top: 60px
+  .color-iphone
+    margin: 0 auto
+
+.chevron-div
+  padding-top: 50px
+  p
+    font-family: GothamBold
+    font-weight: 700
+  i
+    font-size: 24px
+    padding-right: 10px 
+    cursor: pointer
+    &:active
+      color: $green-primary
+
+.gallery-section
+  font-family: GothamRounded
+  background-color: #f5f6f7
+  padding-top: 150px
+  padding-bottom: 120px
+  position: relative
+  .column-justify
+    padding-top: 20px
+  .community-header
+    font-family: GothamBold
+    font-size: 20px
+    font-weight: 700
+    letter-spacing: 2px
+  .img-responsive
+    max-width: 80%
+  .image-column
+    padding: 0
+    .gallery-image
+      margin: 0 auto
+
+.chevron-position
+  position: absolute
+  top: 20%
+  right: 3%
+  i
+    font-size: 24px
+    cursor: pointer
+    padding-right: 10px
+    &:active
+      color: $green-primary      
+
+.subscribe-section
+  background-image: url("../images/build/Livello 3.png")
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  height: 100vh
+  padding-top: 25%
+  .subsc-header
+    font-family: GothamBold
+    font-weight: 700
+    letter-spacing: 3px
+    color: white
+  .input-group
+    margin: 0 auto
+    input
+      font-family: GothamRounded
+      height: 60px
+      font-size: 18px
+      color: black
+    button
+      color: white
+      height: 60px
+      width: 60px
+      background-color: $green-primary
+      border: 1px solid $green-primary
+      i
+        font-size: 25px
+      &:hover,
+      &:active
+        background-color: $green-secondary
+  
+.download-section
+  padding: 50px 0 
+  background-color: #f5f6f7
+  h3
+    font-family: GothamBold
+    font-size: 20px
+    font-weight: 700
+  p
+    font-family: GothamRounded
+    text-transform: uppercase
+    font-weight: 500
+    font-size: 12px
+    letter-spacing: 1px
+    color: #373737
+    line-height: 22px
+    padding-bottom: 30px
+  .download-btn
+    margin: 10px 20px
+    font-family: GothamBold
+    letter-spacing: 2px
+    color: white
+    line-height: 50px
+    padding: 0 0 0 15px
+    background-color: $green-secondary
+    width: 250px
+    text-align: left
+    font-size: 16px
+    i
+      float: right
+      background-color: $green-primary
+      font-size: 25px
+      line-height: 50px
+      padding: 0 20px 0 20px
+    &:hover,
+    &:active
+      transition: 0.3s
+      background-color: $green-primary
+      color: black
+      i
+        background-color: $green-secondary
+
+.footer-section
+  padding: 50px 10px
+  img
+    float: right
+  a
+    font-family: GothamBold
+    color: black
+    letter-spacing: 2px
+    line-height: 40px
+    &:hover
+      text-decoration: none
+      color: $green-secondary
+  span
+    color: $green-secondary
+    font-weight: 700
+  p
+    font-family: GothamBold
+    letter-spacing: 2px
+
+
+@media (min-width: 768px) 
+  .navbar-nav
+    float: none
+    margin: 0 auto
+    li
+      float: none
+      display: inline-block
+  .iphone-section
+    padding-bottom: 10vh
+  .design-section
+    overflow: hidden
+
+
+@media (max-width: 767px)
+  .navbar-nav
+    .camera-icon
+      display: none
+  .navbar-collapse
+    border-top: none
+  .hero
+    min-height: 500px
+  .iphone-section
+    min-height: 500px
+  .flat-iphone
+    padding-bottom: 6vh
+  .gallery-section
+    background: none
+  .chevron-position
+    display: none
+  .footer-section
+    img
+      float: none
+      margin: 0 auto
+      padding-top: 20px
+    .copyright
+      text-align: center
+
+@media (min-width: 768px) and (max-width: 1200px)
+  .navbar-default
+    .navbar-nav
+      li
+        padding-left: 0
+        padding-right: 0   
+  .chevron-position
+    top: 23%
+    right: 25%
+
+@media (max-width: 1200px)
+  .gallery-image
+    padding-bottom: 20px
+
+@media (max-width: 1000px)
+  .chevron-position
+    right: 10%
+
+@media (max-width: 600px)
+  .iphone-section
+    height: 70vh
