@@ -4,7 +4,7 @@ var leftChevron = document.getElementById("leftChevron"),
 	rightChevron = document.getElementById("rightChevron"),
 	flatIphoneImage = document.getElementById("flatIphoneImage"),
 	numberIndicator = document.getElementById("numberIndicator"),
-	imageIphoneArray = ["images/flat darkgreen.png", "images/flat green.png", "images/flat red.png", "images/flat yellow.png", "images/flat white.png"];
+	imageIphoneArray = ["images/build/flat darkgreen.png", "images/build/flat green.png", "images/build/flat red.png", "images/build/flat yellow.png", "images/build/flat white.png"];
 var x = 1;
 
 function addX() {
