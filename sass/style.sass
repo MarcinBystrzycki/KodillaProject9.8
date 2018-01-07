@@ -117,16 +117,15 @@ $green-secondary: #12bd9d
 
 .paragraph
   color: #373737
-  font-weight: 0
   margin-bottom: 30px
   letter-spacing: 3px
-  text-shadow: 1px 2px 0 white
+  text-shadow: 1px 1px 0 white
+  text-align: justify
   .bold
     font-family: GothamBold
     
 .design-section
-  max-height: 500px
-  padding-top: 60px
+  margin-top: 100px
   .color-iphone
     margin: 0 auto
 
@@ -145,8 +144,9 @@ $green-secondary: #12bd9d
 .gallery-section
   font-family: GothamRounded
   background-color: #f5f6f7
-  padding-top: 150px
+  padding-top: 100px
   padding-bottom: 120px
+  margin-top: 100px
   position: relative
   .column-justify
     padding-top: 20px
@@ -164,7 +164,7 @@ $green-secondary: #12bd9d
 
 .chevron-position
   position: absolute
-  top: 20%
+  top: 10%
   right: 3%
   i
     font-size: 24px
@@ -277,7 +277,6 @@ $green-secondary: #12bd9d
   .design-section
     overflow: hidden
 
-
 @media (max-width: 767px)
   .navbar-nav
     .camera-icon
@@ -292,8 +291,13 @@ $green-secondary: #12bd9d
     padding-bottom: 6vh
   .gallery-section
     background: none
+    padding-top: 0
   .chevron-position
     display: none
+  .chevron-div
+    position: absolute
+    right: 0
+    top: -15%
   .footer-section
     img
       float: none
@@ -309,8 +313,8 @@ $green-secondary: #12bd9d
         padding-left: 0
         padding-right: 0   
   .chevron-position
-    top: 23%
-    right: 25%
+    // top: 23%
+    // right: 25%
 
 @media (max-width: 1200px)
   .gallery-image
